@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D97C3F01DC401110009ADE2 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D97C3EF1DC401110009ADE2 /* HomeTableViewController.swift */; };
+		4D97C3F21DC401560009ADE2 /* NewsItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D97C3F11DC401560009ADE2 /* NewsItemTableViewCell.swift */; };
 		4DE9BE681DBE870B00D344C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9BE671DBE870B00D344C3 /* AppDelegate.swift */; };
-		4DE9BE6A1DBE870B00D344C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9BE691DBE870B00D344C3 /* ViewController.swift */; };
-		4DE9BE6D1DBE870B00D344C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE9BE6B1DBE870B00D344C3 /* Main.storyboard */; };
+		4DE9BE6D1DBE870B00D344C3 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE9BE6B1DBE870B00D344C3 /* Home.storyboard */; };
 		4DE9BE6F1DBE870B00D344C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE9BE6E1DBE870B00D344C3 /* Assets.xcassets */; };
 		4DE9BE721DBE870B00D344C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE9BE701DBE870B00D344C3 /* LaunchScreen.storyboard */; };
 		4DE9BE7D1DBE870B00D344C3 /* MyNewsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE9BE7C1DBE870B00D344C3 /* MyNewsAppTests.swift */; };
@@ -34,10 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D97C3EF1DC401110009ADE2 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		4D97C3F11DC401560009ADE2 /* NewsItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsItemTableViewCell.swift; sourceTree = "<group>"; };
 		4DE9BE641DBE870B00D344C3 /* MyNewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE9BE671DBE870B00D344C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DE9BE691DBE870B00D344C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4DE9BE6C1DBE870B00D344C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DE9BE6C1DBE870B00D344C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		4DE9BE6E1DBE870B00D344C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DE9BE711DBE870B00D344C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DE9BE731DBE870B00D344C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,6 +76,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D97C3ED1DC4006D0009ADE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D97C3F11DC401560009ADE2 /* NewsItemTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4D97C3EE1DC400930009ADE2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DE9BE6B1DBE870B00D344C3 /* Home.storyboard */,
+				4D97C3EF1DC401110009ADE2 /* HomeTableViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		4DE9BE5B1DBE870B00D344C3 = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +116,9 @@
 		4DE9BE661DBE870B00D344C3 /* MyNewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				4D97C3EE1DC400930009ADE2 /* View Controllers */,
+				4D97C3ED1DC4006D0009ADE2 /* Views */,
 				4DE9BE671DBE870B00D344C3 /* AppDelegate.swift */,
-				4DE9BE691DBE870B00D344C3 /* ViewController.swift */,
-				4DE9BE6B1DBE870B00D344C3 /* Main.storyboard */,
 				4DE9BE6E1DBE870B00D344C3 /* Assets.xcassets */,
 				4DE9BE701DBE870B00D344C3 /* LaunchScreen.storyboard */,
 				4DE9BE731DBE870B00D344C3 /* Info.plist */,
@@ -234,7 +253,7 @@
 			files = (
 				4DE9BE721DBE870B00D344C3 /* LaunchScreen.storyboard in Resources */,
 				4DE9BE6F1DBE870B00D344C3 /* Assets.xcassets in Resources */,
-				4DE9BE6D1DBE870B00D344C3 /* Main.storyboard in Resources */,
+				4DE9BE6D1DBE870B00D344C3 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DE9BE6A1DBE870B00D344C3 /* ViewController.swift in Sources */,
+				4D97C3F01DC401110009ADE2 /* HomeTableViewController.swift in Sources */,
+				4D97C3F21DC401560009ADE2 /* NewsItemTableViewCell.swift in Sources */,
 				4DE9BE681DBE870B00D344C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,12 +316,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4DE9BE6B1DBE870B00D344C3 /* Main.storyboard */ = {
+		4DE9BE6B1DBE870B00D344C3 /* Home.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4DE9BE6C1DBE870B00D344C3 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 		4DE9BE701DBE870B00D344C3 /* LaunchScreen.storyboard */ = {
@@ -505,6 +525,7 @@
 				4DE9BE8E1DBE870B00D344C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DE9BE8F1DBE870B00D344C3 /* Build configuration list for PBXNativeTarget "MyNewsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +534,7 @@
 				4DE9BE911DBE870B00D344C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DE9BE921DBE870B00D344C3 /* Build configuration list for PBXNativeTarget "MyNewsAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +543,7 @@
 				4DE9BE941DBE870B00D344C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
